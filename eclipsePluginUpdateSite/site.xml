@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.tooltwist.tooltwistPluginFeature_7.0.3.jar" id="com.tooltwist.tooltwistPluginFeature" version="7.0.3">
+      <category name="Tooltwist"/>
+   </feature>
+   <category-def name="Tooltwist" label="ToolTwist">
+      <description>
+         Features that assist ToolTwist development.
+      </description>
+   </category-def>
+</site>
