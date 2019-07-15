@@ -1,5 +1,72 @@
 /*This stylesheet contains some custom class rather than Bootstrap*/
-		
+
+/* Typed.js */
+
+.text-editor-wrap {
+	display: block;
+	margin: auto;
+	max-width: 530px;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.8) 0px 20px 70px;
+	clear: both;
+	overflow: hidden;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+
+.title-bar {
+	padding: 5px 0;
+	font-family: "Lucida Grande", sans-serif;
+	font-size: 0.75em;
+	text-align: center;
+	text-shadow: rgba(255, 255, 255, 0.8) 0px 1px 0px;
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #e8e8e8, #bcbbbc);
+	background-image: -moz-linear-gradient(top, #e8e8e8, #bcbbbc);
+	background-image: linear-gradient(top, #e8e8e8, #bcbbbc);
+	box-shadow: inset rgba(255, 255, 255, 0.7) 0px 1px 1px;
+	border-bottom: #6a6a6a 1px solid;
+}
+
+.shift-text .text-body {
+	height: 120px;
+}
+
+.text-body {
+	height: 250px;
+	background-color: rgba(0, 0, 0, 0.85);
+	padding: 10px;
+	color: #f0f0f0;
+	text-shadow: #000 0px 1px 0px;
+	font-family: "Consolas", "Courier New", "Courier";
+	font-size: 1.45em;
+	line-height: 1.40em;
+	font-weight: 500;
+	text-align: left;
+	overflow: hidden;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+
+/* */
+
+#readMoreBtn {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+}
+#more {
+	display: none;
+}
 a.brand img {
 	border-radius:50%;
 	border:5px solid #fff;
@@ -78,7 +145,7 @@ ul.social-icons li a:hover {
 	text-align:left;
 	padding:47px 0;
 }
-#skills .ps, #skills .ai, #skills .html, #skills .css {
+#skills .js, #skills .node, #skills .html, #skills .css {
 	padding:25px;
 	width:100px;
 	height:100px;
@@ -93,11 +160,11 @@ ul.social-icons li a:hover {
 	-o-transition: all 0.2s linear;
 	transition: all 0.2s linear;
 }
-#skills .ps {
-	background:#30a5dc;
+#skills .js {
+	background:#f7df20;
 }
-#skills .ai {
-	background:#ee742b;
+#skills .node {
+	background:#90c53f;
 }
 #skills .html {
 	background:#f04949;
@@ -105,10 +172,10 @@ ul.social-icons li a:hover {
 #skills .css {
 	background:#39d084;
 }
-#skills .ps:hover, #skills .ai:hover, #skills .html:hover, #skills .css:hover {
+#skills .js:hover, #skills .node:hover, #skills .html:hover, #skills .css:hover {
 	border:8px solid #fff;
 }
-#skills .ps h3, #skills .ai h3, #skills .html h3, #skills .css h3 {
+#skills .js h3, #skills .node h3, #skills .html h3, #skills .css h3 {
 	color:#fff;
 	font-size: 3.4em;
 	font-weight: normal;
@@ -141,15 +208,15 @@ ul.social-icons li a:hover {
 #skills .span5 h3 span {
 	float:right;
 }
-.ps2 {
+.js2 {
 	width:90%;
-	background:#30a5dc;
+	background:#f7df20;
 	-moz-animation:html5 2s ease-out;
 	-webkit-animation:html5 2s ease-out;
 }
-.ai2 {
-	width:80%;
-	background:#ee742b;
+.node2 {
+	width:90%;
+	background:#90c53f;
 	-moz-animation:css3 2s ease-out;
 	-webkit-animation:css3 2s ease-out;
 }
@@ -165,69 +232,69 @@ ul.social-icons li a:hover {
 	-moz-animation:photoshop 2s ease-out;
 	-webkit-animation:photoshop 2s ease-out;
 }
- @-moz-keyframes ps2 {
-0% {
-width:0px;
+ @-moz-keyframes js2 {
+	0% {
+		width:0px;
+	}
+	100% {
+		width:90%;
+	}
 }
-100% {
-width:90%;
-}
-}
-@-moz-keyframes ai2 {
-0% {
-width:0px;
-}
-100% {
-width:80%;
-}
+@-moz-keyframes node2 {
+	0% {
+		width:0px;
+	}
+	100% {
+		width:80%;
+	}
 }
 @-moz-keyframes html2 {
-0% {
-width:0px;
-}
-100% {
-width:75%;
-}
+	0% {
+		width:0px;
+	}
+	100% {
+		width:75%;
+	}
 }
 @-moz-keyframes css2 {
-0% {
-width:0px;
+	0% {
+		width:0px;
+	}
+	100% {
+		width:85%;
+	}
 }
-100% {
-width:85%;
-}
-}
- @-webkit-keyframes ps2 {
-0% {
-width:0px;
-}
-100% {
-width:90%;
-}
+ @-webkit-keyframes js2 {
+	0% {
+		width:0px;
+	}
+	100% {
+		width:90%;
+	}
 }
 @-webkit-keyframes ai {
-0% {
-width:0px;
-}
-100% {
-width:80%;
-}
+	0% {
+		width:0px;
+	}
+	100% {
+		width:80%;
+	}
 }
 @-webkit-keyframes html {
-0% {
-width:0px;
-}
-100% {
-width:75%;
-}
+	0% {
+		width:0px;
+	}
+	100% {
+		width:75%;
+	}
 }
 @-webkit-keyframes css {
-0% {
-width:0px;
-}
-100% {
-width:85%;
-}
+	0% {
+		width:0px;
+	}
+	100% {
+		width:85%;
+	}
 }
 /**** Work container *****/
 ul.work-images li {
