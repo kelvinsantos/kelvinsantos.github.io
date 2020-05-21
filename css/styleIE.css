@@ -1,22 +1,28 @@
-.ss-links a{
+.ss-links a {
 	background: #000;
 }
-.ss-links a:hover{
+
+.ss-links a:hover {
 	background: #333;
 }
-h2.ss-subtitle:before{
+
+h2.ss-subtitle:before {
 	background: #333;
 }
-h2.ss-subtitle:after{
+
+h2.ss-subtitle:after {
 	border-bottom: 4px dotted #333;
 }
-.ss-container:before{
-    background: #333;
+
+.ss-container:before {
+	background: #333;
 }
-.ss-circle{
+
+.ss-circle {
 	border: 10px solid #000;
 }
-.ss-circle-deco:before{
+
+.ss-circle-deco:before {
 	width: 29%;
 	height: 0px;
 	border-bottom: 5px dotted #ddd;
@@ -29,24 +35,29 @@ h2.ss-subtitle:after{
 	content: '';
 	margin-top: -3px;
 }
-.ss-circle-deco:after{
+
+.ss-circle-deco:after {
 	width: 15px;
 	height: 15px;
 	background: #000;
 	padding: none;
 	border: none;
 }
-.ss-container h3{
-	background:#777;
+
+.ss-container h3 {
+	background: #777;
 }
-.ss-container h3 span{
-    color: #fff;
+
+.ss-container h3 span {
+	color: #fff;
 }
-.ss-container h3 a{
-    font-size: 28px;
-    color: #f8f8f8;
-    display: block;
+
+.ss-container h3 a {
+	font-size: 28px;
+	color: #f8f8f8;
+	display: block;
 }
-.ss-container h3 a:hover{
+
+.ss-container h3 a:hover {
 	color: #fff;
 }
