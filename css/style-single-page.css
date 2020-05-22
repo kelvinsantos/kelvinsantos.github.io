@@ -1,6 +1,5 @@
 /*This stylesheet contains some custom class rather than Bootstrap*/
 
-
 /* Typed.js */
 
 @media (max-width: 767px) { 
@@ -17,7 +16,7 @@
 		width: 325px !important;
 	}
 	#skills .span5 {
-		width: 90%;
+		width: 88%;
 		margin-left: 25px;
 	}
 }
@@ -35,6 +34,8 @@
 	-ms-transition: all 0.5s ease-out;
 	-o-transition: all 0.5s ease-out;
 	transition: all 0.5s ease-out;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .title-bar {
@@ -158,10 +159,6 @@ a.hire-me:hover {
 .social {
 	text-align: center;
 	padding-bottom: 80px;
-}
-
-ul.social-icons {
-	margin: 20px 0;
 }
 
 ul.social-icons li {
